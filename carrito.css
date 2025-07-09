@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: #E899BB;    
     min-height: 100vh;
     padding: 20px;
     color: #333;
@@ -69,12 +69,12 @@ h1 {
 }
 
 .acciones button:last-child {
-    background: linear-gradient(45deg, #667eea, #764ba2);
+    background: linear-gradient(45deg, #a80707bd, #6c15c2);
     color: white;
 }
 
 .acciones button:last-child:hover {
-    background: linear-gradient(45deg, #764ba2, #667eea);
+    background: linear-gradient(45deg, #764ba2, #a80707bb);
     transform: translateY(-2px);
     box-shadow: 0 6px 20px rgba(118, 75, 162, 0.4);
 }
@@ -93,8 +93,8 @@ h1 {
 
 /* Encabezado de la tabla */
 #tabla-carrito thead {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
+    background: linear-gradient(135deg,  #cd6a88 0%, #cd6a88 100%);
+    color: rgb(255, 255, 255);
 }
 
 #tabla-carrito th {
@@ -144,20 +144,20 @@ h1 {
 #tabla-carrito td:nth-child(3),
 #tabla-carrito td:nth-child(5) {
     font-weight: 700;
-    color: #4ecdc4;
+    color: #000000;
     font-size: 16px;
 }
 
 /* Cantidad */
 #tabla-carrito td:nth-child(4) {
     font-weight: 600;
-    color: #667eea;
+    color: #000000;
     font-size: 16px;
 }
 
 /* Botones de acción en la tabla */
 #tabla-carrito button {
-    background: linear-gradient(45deg, #ff6b6b, #ee5a52);
+    background: linear-gradient(45deg, #cd6a88, #cd6a88);
     color: white;
     border: none;
     padding: 8px 16px;
